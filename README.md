@@ -2,7 +2,7 @@
 Multi-Document Medical Knowledge Assistant
 A production-grade Retrieval-Augmented Generation (RAG) system engineered for high-accuracy, low-hallucination medical Q&A across large document corpora.
 Live Demo · API Docs · Architecture · Quickstart
-�
+
 
 📌 Table of Contents
 Overview
@@ -178,6 +178,7 @@ python -m http.server 5500
 API Reference
 POST /query
 Submits a natural language medical query and returns a verified, context-grounded answer.
+
 Request
 {
   "query": "What are the contraindications of aspirin in pediatric patients?"
